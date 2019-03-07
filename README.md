@@ -1,6 +1,6 @@
 # Hunting_face 使用说明
 
-<H6>  1. 编译c++ g++ -I/usr/include/python3.6m/ c_pythhon/opencv_numpy.cpp -lpython3.6m -L/usr/include/opencv -lopencv_core -lopencv_imgcodecs -lopencv_imgproc （需要opencv 与python） ../out
+<H6>  1. 编译c++ “g++ -I/usr/include/python3.6m/ c_pythhon/opencv_numpy.cpp -lpython3.6m -L/usr/include/opencv -lopencv_core -lopencv_imgcodecs -lopencv_imgproc ../out“ （需要opencv 与python） 
 
 <H6>  2. 测试模型 <1>. “PYTHONPATH=. ./out  test main” 使用测试数据测试需下载模型文件，与Hunting face数据。<2>. "PYTHONPATH=. ./out  test_api imgs_to_out PATH_TO_YOUR_TEST_IMG_DIR/" (需要安装python tensorflow)
 
